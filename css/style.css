@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Rubik');
 
+/* HEADER STYLING */
+
 header {
     background-color: black;
     height: 200px;
@@ -8,4 +10,43 @@ header {
     padding: 30px;
     font-size: 50px;
     font-family: 'Rubik', sans-serif;
+}
+
+/* NAVBAR STYLING */
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-family: 'Rubik', sans-serif;
+}
+
+nav li {
+    float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+/* CONTENT STYLING - HOME */
+
+.hometext {
+    text-align: left;
+    font-family: 'Rubik', sans-serif;
+}
+
+.bandimg {
+    display: inline-block;
+    float: left;
 }
