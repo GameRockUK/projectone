@@ -24,7 +24,6 @@ nav ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
     font-family: 'Rubik', sans-serif;
     text-align: center;
     position: relative;
@@ -45,15 +44,28 @@ li a {
 
 li a:hover {
   background-color: #111;
+  text-decoration: none;
+  color: white;
 }
 
 /* CONTENT STYLING - HOME */
+
+.jumbotron {
+    width: 50%;
+    margin-left: 350px;
+    
+}
 
 .home-content {
     text-align: center;
     font-family: 'Rubik', sans-serif;
     padding-left: 200px;
     padding-right: 200px;
+}
+
+.container {
+    max-width: 400px;
+    padding-bottom: 30px;
 }
 
 /* FOOTER STYLING */
