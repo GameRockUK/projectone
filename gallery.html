@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <title>Extreme Bullet - Official site</title>
 </head>
@@ -15,22 +16,44 @@
 
 <body>
     <nav>
-        <div class="navdiv">
-        <ul>
-            <li><a href="#home" class="active">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#gallery">Gallery</a></li>
-            <li><a href="#clips">Clips</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+        <div class="navbar navbar-dark bg-dark container-fluid">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="clips.html">Clips</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
         </div>
     </nav>
-    <div class="home-content">
-    <section>
-        <p>Welcome to the home of the Monkees. Here you will find all the information regarding our latest tours, music and a picture gallery which contains images from a few of the events.</p>
-            <img src="images/monkees.jpg" width="100%" height="auto"></img>
-    </section>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <p>Welcome to the picture gallery, here you will find a selection of pictures of the Monkees</p>
+        </div>
     </div>
+    <div class="row">
+        <div class="col-sm">
+            <img src="images/band.jpg" class="center-block galleryimg" width="300px" margin="auto"></img>
+        </div>
+        <div class="col-sm">
+            <img src="images/cover3.jpg" class="center-block galleryimg" width="300px" margin="auto"></img>
+        </div>
+        <div class="col-sm">
+            <img src="images/dj.jpg" class="center-block galleryimg" width="300px" margin="auto"></img>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm">
+            <img src="images/pt.jpg" class="center-block galleryimg" width="300px" margin="auto"></img>
+        </div>
+        <div class="col-sm">
+            <img src="images/md.jpg" class="center-block galleryimg" width="300px" margin="auto"></img>
+        </div>
+        <div class="col-sm">
+            <img src="images/mn.jpg" class="center-block galleryimg" width="300px" margin="auto"></img>
+        </div>
+    </div>
+
     <footer class="footer">
         <p>Copyright The Monkees 2019. All rights reserved.</p>
     </footer>
