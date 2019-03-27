@@ -40,7 +40,9 @@ The testing for each page, went like this:
 We previewed the code within the browser (Google Chrome)
 We then tested the code on various resolutions using the Google Chrome inspect tool
 If testing went well, then we commit to the git. If testing brought up errors then we resolve the errors and repeat the above test before comitting to the git.
-Deployment
+
+# Deployment
+
 There are no differences between the development version and the release version. To release the project we pushed the git from c9.io to Github.com via the command line.
 
 # Technologies Used
